@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,600;1,8..144,100&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 13vh;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    margin-left: 6em;
+}
+
+.logo-fantastika {
+    width: 15vw;
+}
+
+header nav {
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 5rem;
+}
+
+header img {
+    width: 2.3vw;
+}
+
+.dog-chapeu {
+    background-image: url(./imagens/dog-chapeu-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    height: 100vh;
+}
+
+h1 {
+    width: 40vw;
+    color: white;
+    font-family: 'Roboto Serif', Bold;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 6%;
+    margin-left: 30%;
+}
+
+.patinha-do-dog {
+    width: 8vw;
+    position: relative;
+    left: 43rem;
+    top: 3em;
+}
+
+.dog-fantasiado {
+    background-image: url(./imagens/dog-fantasiado-desktop.png);
+    background-size: 100% 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.div-dog-fantasiado {
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 8rem;
+}
+
+
+h2 {
+
+    color: #3A3A2F;
+    font-size: 3rem;
+
+}
+
+p {
+    font-size: 2rem;
+    font-family: 'Roboto', Regular;
+    color: #3A3A2F;
+}
+
+button {
+    width: 15vw;
+    height: 8vh;
+    font-size: 20px;
+    font-family: 'Roboto', Bold;
+    border-radius: 3rem;
+    color: white;
+    background-color: #3A3A2F;
+    border-style: none;
+    cursor: pointer;
+
+}
+
+.dog-preto {
+    background-image: url(./imagens/dog-scooby-desktop.png);
+    background-size: 100% 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.div-dog-preto {
+
+    width: 28vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 60%;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-size: 3rem;
+}
+
+.paragrafo-2 {
+    font-size: 2rem;
+    font-family: 'Roboto', Regular;
+    color: #FFFFFF;
+}
+
+.botao-2 {
+    width: 15vw;
+    height: 8vh;
+    font-size: 20px;
+    font-family: 'Roboto', Bold;
+    border-radius: 3rem;
+    color: #3A3A2F;
+    background-color: #FFFFFF;
+    border-style: none;
+}
+
+.patrocinios {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h4 {
+    height: 4vh;
+    color: #FD6A9A;
+    font-size: 22px;
+    font-family: 'Roboto Serif', italic;
+}
+
+.logo-loja {
+    width: 7vw;
+    height: 4vh;
+}
+
+footer {
+    width: 100%;
+    height: 40vh;
+    background-color: #EB4A7B;
+    display: flex;
+
+}
+
+
+footer section {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer h3 {
+    font-size: 20px;
+    font-family: 'Roboto Serif', Bold;
+    margin-bottom: 1.5rem;
+
+}
+
+ul a {
+    text-decoration: none;
+    font-family: 'Roboto', regular;
+    color: #FFFFFF;
+
+}
+
+/*------- Área Responsiva-------- */
+
+@media (max-width: 500px) {
+    header {
+        width: 100%;
+        height: 20vh;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .div-fantastika {
+
+        margin-right: 6%;
+    }
+
+    .logo-fantastika {
+        width: 40vw;
+
+
+    }
+
+    .nav-header {
+        padding: 1em;
+
+
+    }
+
+    .nav-header .icon-whats {
+        width: 10vw;
+        height: 10vh;
+
+    }
+
+    .nav-header .icon-instagram,
+    .icon-youtube {
+        display: none;
+    }
+
+    .dog-chapeu {
+        background-image: url(./imagens/dog-chapeu.png);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 150vh;
+    }
+
+    h1 {
+
+        font-size: 3rem;
+        width: 70vw;
+        height: 40vh;
+        text-align: center;
+        position: relative;
+        right: 7rem;
+        top: 1em
+    }
+
+    .patinha-do-dog {
+        width: 25vw;
+        position: relative;
+        left: 10rem;
+        top: 1em;
+    }
+
+    .dog-chapeu h1 {
+        width: 80vw;
+
+    }
+
+    .dog-fantasiado {
+        background-image: url(./imagens/dog-fantasiado.png);
+        background-size: 100% 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+
+    }
+
+    .div-dog-fantasiado {
+
+        height: 30%;
+        width: 80%;
+
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+        margin-right: 5%;
+    }
+
+    button {
+        font-size: 15px;
+        width: 30vw;
+        height: 6vh;
+
+    }
+
+    .dog-preto {
+        background-image: url(./imagens/dog-scooby.png);
+        background-size: 100% 100vh;
+    }
+
+    .div-dog-preto {
+        width: 70%;
+        height: 40%;
+      margin-bottom: 20rem;
+      margin-left: 5rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .paragrafo-2 {
+        font-size: 0.8rem;
+    }
+
+    .botao-2 {
+        font-size: 15px;
+        width: 25vw;
+        height: 7vh;
+    }
+
+
+    .section-patrocinios {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .patrocinios {
+        height: 15vh;
+        width: 80%;
+        display: flex;
+        text-align: center;
+
+    }
+
+    h4 {
+        position: relative;
+        left: 45%;
+        height: 10vh;
+        width: 20vw;
+        font-size: 10px;
+        font-family: 'Roboto Serif', italic;
+
+    }
+
+    .logo-loja {
+        width: 20%;
+        height: 15%;
+
+    }
+
+    footer {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        
+        
+    }
+
+    footer section {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    footer h3 {
+        font-size: 1.5rem;
+        
+    }
+
+    ul a {
+        font-size: 1rem;
+    }
+}
