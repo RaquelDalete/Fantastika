@@ -238,7 +238,7 @@ ul a {
     }
 
     .logo-fantastika {
-        width: 35vw;
+        width: 30vw;
     }
 
     .nav-header .icon-whats {
@@ -249,6 +249,9 @@ ul a {
     .icon-youtube {
         display: none;
     }
+
+
+    /* ------------------Main============ */
 
     .dog-chapeu {
         background-image: url(./imagens/dog-chapeu.png);
@@ -267,7 +270,7 @@ ul a {
     }
 
     .patinha-do-dog {
-        width: 22vw;
+        width: 30vw;
         margin-bottom: 10rem;
     }
 
@@ -298,7 +301,7 @@ ul a {
     }
 
     p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-right: 5%;
     }
 
@@ -317,16 +320,16 @@ ul a {
     .div-dog-preto {
         width: 50%;
         height: 40%;
-      margin-bottom: 15rem;
+      margin-bottom: 20rem;
       margin-left: 4rem;
     }
 
     h3 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .paragrafo-2 {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .botao-2 {
@@ -334,7 +337,6 @@ ul a {
         width: 25vw;
         height: 7vh;
     }
-
 
     .section-patrocinios {
         display: flex;
@@ -364,17 +366,18 @@ ul a {
         height: 15%;
     }
 
+    /* ---------FOOTER-------- */
 
     footer {
         width: 100%;
-        height: 130vh;
+        height: 75vh;
         display: flex;
         align-items: center;
     }
 
     footer section {
         width: 100%;
-        height: 130vh;
+        height: 75vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -386,7 +389,7 @@ ul a {
         }
         
         .logo-fantastika{
-            width: 30vw;
+            width: 40vw;
             margin: 1rem;
         }
         
@@ -399,10 +402,11 @@ ul a {
         }
 
     .div-footer{
-        height: 90vh;
+        height: 50vh;
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     footer h3 {
@@ -413,6 +417,5 @@ ul a {
     ul a {
         font-size: 0.8rem;
         text-align: center;
-        margin: 1rem;
     }
 }
